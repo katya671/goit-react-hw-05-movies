@@ -1,0 +1,16 @@
+.container {
+  max-width: 930px;
+}
+.list {
+}
+.item {
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid var(--subtext);
+  border-radius: 5px;
+  background-color: var(--light);
+}
+.name {
+  color: var(--subtext);
+  margin-bottom: 5px;
+}

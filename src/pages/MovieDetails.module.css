@@ -1,0 +1,54 @@
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.additionalInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: var(--darkest);
+  text-decoration: none;
+  color: var(--lightest);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color var(--tra);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent);
+}
+
+.backBtn {
+  padding: 10px 20px;
+  background-color: var(--darkest);
+  text-decoration: none;
+  color: var(--lightest);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color var(--tra);
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.backBtn:hover,
+.backBtn:focus {
+  background-color: var(--accent);
+}
+
+.arrowSymbol {
+  font-size: 18px;
+  margin-right: 8px;
+}

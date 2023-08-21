@@ -1,0 +1,37 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.item {
+  width: 200px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: transform var(--tra), box-shadow var(--tra);
+}
+
+.item:hover .image {
+  transform: scale(1.02);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.item:hover .name {
+  color: var(--accent);
+}
+
+.name {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.character {
+  text-align: center;
+  color: var(--subtext);
+}

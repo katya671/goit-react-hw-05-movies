@@ -1,0 +1,28 @@
+.item {
+  width: 290px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--darkest);
+  transition: color var(--tra);
+  display: block;
+}
+
+.link:hover {
+  color: var(--accent);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: transform var(--tra), box-shadow var(--tra);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.link:hover .image {
+  transform: scale(1.02);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}

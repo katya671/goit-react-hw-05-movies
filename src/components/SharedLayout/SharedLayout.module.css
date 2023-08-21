@@ -1,0 +1,36 @@
+.container {
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 1100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  color: var(--lightest);
+  background-color: var(--darkest);
+}
+
+.navigation {
+  display: flex;
+  gap: 30px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: color var(--tra);
+  font-weight: 500;
+}
+
+.link:hover {
+  color: var(--accent);
+}
