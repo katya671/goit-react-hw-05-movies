@@ -40,7 +40,7 @@ const MovieDetails = props => {
     };
 
     apiMovieDetails();
-  }, []);
+  }, [movieId]);
   return (
     <>
       <Link to={backLinkHref.current} className={css.backBtn}>

@@ -24,7 +24,7 @@ const Cast = () => {
     };
 
     apiMovieCast();
-  }, []);
+  }, [movieId]);
 
   return (
     <>
