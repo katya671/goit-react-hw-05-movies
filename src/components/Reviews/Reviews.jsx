@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
 import { getMovieReviews } from 'api/api';
 import { useParams } from 'react-router-dom';
 import css from './Reviews.module.css';
 import Loader from 'components/Loader/Loader';
 
-const Reviews = props => {
+const Reviews = () => {
   const { movieId } = useParams();
   const [reviews, setReviews] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -48,7 +47,5 @@ const Reviews = props => {
     </>
   );
 };
-
-Reviews.propTypes = {};
 
 export default Reviews;

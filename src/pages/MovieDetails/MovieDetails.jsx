@@ -6,8 +6,7 @@ import {
   useLocation,
   useParams,
 } from 'react-router-dom';
-import { getMovieDetails } from '../api/api';
-import PropTypes from 'prop-types';
+import { getMovieDetails } from '../../api/api';
 import styled from 'styled-components';
 import Loader from 'components/Loader/Loader';
 import css from './MovieDetails.module.css';
@@ -73,7 +72,5 @@ const MovieDetails = props => {
     </>
   );
 };
-
-MovieDetails.propTypes = {};
 
 export default MovieDetails;

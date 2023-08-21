@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
-import { getTrending } from '../api/api';
+import { getTrending } from '../../api/api';
 import Loader from 'components/Loader/Loader';
 import css from './Home.module.css';
 import MovieList from 'components/MovieList/MovieList';
@@ -33,7 +32,5 @@ const Home = () => {
     </main>
   );
 };
-
-Home.propTypes = {};
 
 export default Home;

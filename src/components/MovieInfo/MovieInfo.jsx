@@ -32,6 +32,19 @@ const MovieInfo = ({ movie }) => {
   );
 };
 
-MovieInfo.propTypes = {};
+MovieInfo.propTypes = {
+  movie: PropTypes.shape({
+    backdrop_path: PropTypes.string,
+    title: PropTypes.string.isRequired,
+    release_date: PropTypes.string.isRequired,
+    popularity: PropTypes.number.isRequired,
+    overview: PropTypes.string.isRequired,
+    genres: PropTypes.arrayOf(
+      PropTypes.shape({
+        name: PropTypes.string.isRequired,
+      })
+    ).isRequired,
+  }).isRequired,
+};
 
 export default MovieInfo;

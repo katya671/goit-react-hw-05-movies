@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
-import css from './Movies.module.css';
 import { useSearchParams } from 'react-router-dom';
 import { getMovies } from 'api/api';
 import Loader from 'components/Loader/Loader';
-import MovieList from './../components/MovieList/MovieList';
-import SearchForm from './../components/SearchForm/SearchForm';
+import MovieList from '../../components/MovieList/MovieList';
+import SearchForm from '../../components/SearchForm/SearchForm';
 
 const Movies = () => {
   const [movies, setMovies] = useState([]);
@@ -41,7 +39,5 @@ const Movies = () => {
     </>
   );
 };
-
-Movies.propTypes = {};
 
 export default Movies;

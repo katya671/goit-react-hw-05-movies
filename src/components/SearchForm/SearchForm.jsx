@@ -26,6 +26,9 @@ const SearchForm = ({ searchQuery, setSearchParams }) => {
   );
 };
 
-SearchForm.propTypes = {};
+SearchForm.propTypes = {
+  searchQuery: PropTypes.string.isRequired,
+  setSearchParams: PropTypes.func.isRequired,
+};
 
 export default SearchForm;

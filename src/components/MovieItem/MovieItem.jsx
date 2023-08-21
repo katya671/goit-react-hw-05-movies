@@ -31,6 +31,13 @@ const MovieItem = ({ movie }) => {
   );
 };
 
-MovieItem.propTypes = {};
+MovieItem.propTypes = {
+  movie: PropTypes.shape({
+    title: PropTypes.string,
+    name: PropTypes.string,
+    id: PropTypes.number.isRequired,
+    poster_path: PropTypes.string,
+  }).isRequired,
+};
 
 export default MovieItem;

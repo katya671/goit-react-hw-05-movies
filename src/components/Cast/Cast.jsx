@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
 import { getMovieCast } from 'api/api';
 import { useParams } from 'react-router-dom';
 import Loader from 'components/Loader/Loader';
@@ -55,7 +54,5 @@ const Cast = () => {
     </>
   );
 };
-
-Cast.propTypes = {};
 
 export default Cast;
