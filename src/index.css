@@ -1,11 +1,20 @@
 @import-normalize; /* bring in normalize.css styles */
 
+/* :root {
+  --lightest: #f5e3f2;
+  --darkest: #443d6e;
+  --accent: #ff80c7;
+  --light: #ffc0e7;
+  --subtext: #443d6e;
+  --tra: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
 :root {
-  --lightest: #f7f4f8;
-  --darkest: #2c1e2e;
-  --accent: #ff7a9e;
-  --light: #eae2e7;
-  --subtext: #7c6a7e;
+  --lightest: #ffe6f5;
+  --darkest: #3e3a52;
+  --accent: #ff80b0;
+  --light: #fffbfd;
+  --subtext: #60708e;
   --tra: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
