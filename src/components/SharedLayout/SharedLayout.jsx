@@ -17,11 +17,7 @@ export const SharedLayout = () => {
     <>
       <header className={css.header}>
         <nav className={css.navigation}>
-          <StyledLink
-            to="/"
-            activeClassName={css.selected}
-            className={css.link}
-          >
+          <StyledLink to="/" className={css.link}>
             Home
           </StyledLink>
           <StyledLink to="/movies" className={css.link}>
