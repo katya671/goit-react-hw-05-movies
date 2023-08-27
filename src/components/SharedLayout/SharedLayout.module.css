@@ -12,10 +12,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 30px;
+  padding: 10px 30px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-  color: var(--lightest);
-  background-color: var(--darkest);
+  background-color: var(--lightest);
 }
 
 .navigation {
@@ -26,9 +25,13 @@
 .link {
   text-decoration: none;
   font-size: 18px;
+  color: var(--darkest);
   border-radius: 5px;
   transition: color var(--tra);
-  font-weight: 500;
+  font-weight: 700;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: color var(--tra);
 }
 
 .link:hover {

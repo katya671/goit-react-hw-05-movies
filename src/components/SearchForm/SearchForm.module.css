@@ -6,23 +6,28 @@
 }
 
 .searchinput {
-  background-color: var(--light);
-  border: 2px solid var(--light);
   border-radius: 8px;
-  outline: transparent;
-  padding: 12px;
+  outline: none;
+  border: none;
   width: 100%;
   font-size: 16px;
+  margin-bottom: 10px;
+  transition: background-color var(--tra);
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  padding: 12px 20px;
+  background-color: var(--light);
   color: var(--darkest);
-  transition: border-color var(--tra);
+  border-radius: 20px;
 }
 
 .searchinput::placeholder {
   color: var(--subtext);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .searchinput:focus {
-  border-color: var(--subtext);
+  background-color: #515884;
 }
 
 .searchinput::-webkit-search-cancel-button {
@@ -31,7 +36,7 @@
   width: 20px;
   height: 20px;
   cursor: pointer;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="%232c1e2e" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="%23fff" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border: none;

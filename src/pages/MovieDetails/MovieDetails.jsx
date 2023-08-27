@@ -43,7 +43,10 @@ const MovieDetails = props => {
   }, [movieId]);
   return (
     <>
-      <Link to={backLinkHref.current} className={css.backBtn}>
+      <Link
+        to={backLinkHref.current}
+        className={`${css.backBtn} ${css.button}`}
+      >
         <span className={css.arrowSymbol}>&larr;</span>Go Back
       </Link>
 

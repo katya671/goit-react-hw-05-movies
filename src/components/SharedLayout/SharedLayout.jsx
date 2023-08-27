@@ -5,10 +5,21 @@ import { NavLink, Outlet } from 'react-router-dom';
 import css from './SharedLayout.module.css';
 
 const StyledLink = styled(NavLink)`
-  color: var(--lightest);
-
   &.active {
     color: var(--accent);
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0px;
+      top: 48px;
+      width: 100%;
+      border-radius: 2px;
+      bottom: 0;
+      height: 4px;
+      background-color: var(--accent);
+    }
   }
 `;
 

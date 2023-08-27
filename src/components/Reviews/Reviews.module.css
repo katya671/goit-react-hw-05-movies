@@ -4,13 +4,14 @@
 .list {
 }
 .item {
-  padding: 20px;
-  margin-bottom: 15px;
-  border: 1px solid var(--subtext);
-  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 30px;
   background-color: var(--light);
+  text-decoration: none;
+  color: var(--darkest);
+  border-radius: 20px;
+  transition: background-color var(--tra);
 }
 .name {
-  color: var(--subtext);
   margin-bottom: 5px;
 }
